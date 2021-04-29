@@ -22,13 +22,13 @@ const ProfilePanel: React.FC = () => {
         <div className="separator"></div>
 
         <div className="key-value">
-          <span className="key">Quem viu seu perfil</span>
-          <span className="value">472</span>
+          <span className="key">Who saw your profile</span>
+          <span className="value">123</span>
         </div>
 
         <div className="key-value">
-          <span className="key">Viram sua publicação</span>
-          <span className="value">459</span>
+          <span className="key">Who saw your publication</span>
+          <span className="value">456</span>
         </div>
       </Container>
     </Panel>

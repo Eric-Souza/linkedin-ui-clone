@@ -10,7 +10,7 @@ const HashtagPanel: React.FC = () => {
   return (
     <Container>
       <Panel>
-        <span className="title">Hashtags seguidas</span>
+        <span className="title">Followed hashtags</span>
 
         {tags.map(item => (
           <span className="tag">
