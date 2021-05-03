@@ -9,18 +9,21 @@ const FeedPost: React.FC = () => {
     <Panel>
       <Container>
         <Row className="heading">
-          <Avatar src="http://www.w3.org/2000/svg" alt="LinkedIn" />
+          <Avatar 
+            src="https://banner2.cleanpng.com/20180410/dbq/kisspng-react-javascript-responsive-web-design-github-angu-github-5accac24ced243.4761515415233628528472.jpg" 
+            alt="React logo" 
+          />
 
           <Column>
             <h3>LinkedIn</h3>
-            <h4>UI Clone</h4>
-            <time>2 sem</time>
+            <h4>React UI Clone</h4>
+            <time>2 weeks</time>
           </Column>
         </Row>
 
         <PostImage
-          src="https://wallpaperaccess.com/full/1579976.jpg"
-          alt="Circuit"
+          src="https://cdn.wallpapersafari.com/92/8/DMFyk9.jpg"
+          alt="Nature wallpaper"
         />
 
         <Row className="likes">
