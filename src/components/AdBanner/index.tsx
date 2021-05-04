@@ -7,7 +7,7 @@ const AdBanner: React.FC = () => {
     <Container className="ad-banner">
       <span>LinkedIn UI Clone - </span>
       
-      Interface reproduzida usando React e Typescript!
+      Interface made using React and Typescript!
     </Container>
   );
 };

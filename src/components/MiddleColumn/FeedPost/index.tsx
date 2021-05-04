@@ -40,22 +40,22 @@ const FeedPost: React.FC = () => {
         <Row className="actions">
           <button>
             <LikeIcon />
-            <span>Gostei</span>
+            <span>Like</span>
           </button>
 
           <button>
             <CommentIcon />
-            <span>Comentar</span>
+            <span>Comment</span>
           </button>
 
           <button>
             <ShareIcon />
-            <span>Compartilhar</span>
+            <span>Share</span>
           </button>
 
           <button>
             <SendIcon />
-            <span>Enviar</span>
+            <span>Send</span>
           </button>
         </Row>
       </Container>

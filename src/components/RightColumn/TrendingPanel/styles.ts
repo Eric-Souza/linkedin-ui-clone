@@ -1,12 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  &:nth-child(2) {
+    position: sticky;
+    top: 64px;
+  }
+
   > div {
     padding: 12px;
 
     .title {
       font-size: 16px;
     }
+
     ul {
       list-style: none;
       margin-top: 8px;
@@ -22,6 +28,7 @@ export const Container = styled.div`
           border-radius: 50%;
           background: var(--color-link);
         }
+
         .news {
           display: flex;
           flex-direction: column;
@@ -32,16 +39,17 @@ export const Container = styled.div`
             font-weight: 600;
             color: var(--color-black);
           }
+
           .subtext {
             font-size: 12px;
             color: var(--color-gray);
           }
         }
-
+        
         & + li {
           margin-top: 10px;
         }
       }
     }
   }
-`;
+`
