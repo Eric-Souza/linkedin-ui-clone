@@ -3,8 +3,6 @@ import React, { useState, useEffect } from 'react'
 import MobileHeader from '../MobileHeader/index'
 import DesktopHeader from '../DesktopHeader/index'
 
-import AdBanner from '../AdBanner/index'
-
 import LeftColumn from '../LeftColumn/index'
 import MiddleColumn from '../MiddleColumn/index'
 import RightColumn from '../RightColumn/index'
@@ -23,11 +21,7 @@ const Layout: React.FC = () => {
       <MobileHeader />
       <DesktopHeader />
 
-      <span>
-        {!isLoading && <AdBanner />}
-      </span>
-
-      <main>
+      <main style={{marginTop: "60px"}}>
         <LeftColumn isLoading={isLoading} />
         <MiddleColumn isLoading={isLoading} />
         <RightColumn isLoading={isLoading} />
